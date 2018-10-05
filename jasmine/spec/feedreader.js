@@ -35,7 +35,7 @@ $(function() {
             allFeeds.forEach(function(feed){
                 //checks both length & undefined
                 expect(feed.url).toBeTruthy();
-            })
+            });
         });
 
         /* Tests if feed name is defined 
@@ -46,7 +46,7 @@ $(function() {
             allFeeds.forEach(function(feed){
                 //checks both length & undefined
                 expect(feed.name).toBeTruthy();
-            })
+            });
         });
     });
 
@@ -103,8 +103,8 @@ $(function() {
                 let feed = $('.feed')[0].children;
                 Array.from(feed).forEach(function(entry){
                 feed1.push(entry.innerText);
+                loadFeed(1, done);
             });
-            loadFeed(1, done);
         });
     });
 
