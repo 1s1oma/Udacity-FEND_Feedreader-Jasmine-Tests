@@ -1,5 +1,4 @@
 # frontend-nanodegree-feedreader
-===============================
 
 ## Table of Contents
 
